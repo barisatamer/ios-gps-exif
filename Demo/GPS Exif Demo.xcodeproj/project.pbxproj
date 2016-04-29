@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CD6F5001CC1045600DBF435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6F4FF1CC1045600DBF435 /* AppDelegate.m */; };
+		6CD6F5031CC1045600DBF435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6F5021CC1045600DBF435 /* main.m */; };
+		6CD6F5051CC1045600DBF435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD6F5041CC1045600DBF435 /* Assets.xcassets */; };
+		6CD6F5081CC1045600DBF435 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD6F5061CC1045600DBF435 /* MainMenu.xib */; };
+		6CD6F5331CC104D400DBF435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6F5321CC104D400DBF435 /* main.m */; };
+		6CD6F5361CC104D400DBF435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6F5351CC104D400DBF435 /* AppDelegate.m */; };
+		6CD6F5391CC104D400DBF435 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6F5381CC104D400DBF435 /* ViewController.m */; };
+		6CD6F53C1CC104D400DBF435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD6F53A1CC104D400DBF435 /* Main.storyboard */; };
+		6CD6F53E1CC104D400DBF435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD6F53D1CC104D400DBF435 /* Assets.xcassets */; };
+		6CD6F5411CC104D400DBF435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD6F53F1CC104D400DBF435 /* LaunchScreen.storyboard */; };
+		6CD6F5671CC1061400DBF435 /* DragDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6F5661CC1061400DBF435 /* DragDropImageView.m */; };
+		6CD6F56B1CC10BB900DBF435 /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6F56A1CC10BB900DBF435 /* ArrowView.m */; };
+		6CD6F5741CC1125600DBF435 /* ExifLocationReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6F5731CC1125600DBF435 /* ExifLocationReader.m */; };
+		6CD6F5751CC1125600DBF435 /* ExifLocationReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6F5731CC1125600DBF435 /* ExifLocationReader.m */; };
+		6CD6F57F1CC4CCFB00DBF435 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD6F57E1CC4CCFB00DBF435 /* MapKit.framework */; };
+		6CD6F5841CC52ADC00DBF435 /* GPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6F5821CC52ADC00DBF435 /* GPSViewController.m */; };
+		6CD6F5851CC52ADC00DBF435 /* GPSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD6F5831CC52ADC00DBF435 /* GPSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CD6F4FB1CC1045600DBF435 /* GPS Exif Demo OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Exif Demo OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD6F4FE1CC1045600DBF435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CD6F4FF1CC1045600DBF435 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CD6F5021CC1045600DBF435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CD6F5041CC1045600DBF435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CD6F5071CC1045600DBF435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6CD6F5091CC1045600DBF435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD6F52F1CC104D400DBF435 /* GPS Exif Demo iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Exif Demo iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD6F5321CC104D400DBF435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CD6F5341CC104D400DBF435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CD6F5351CC104D400DBF435 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CD6F5371CC104D400DBF435 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CD6F5381CC104D400DBF435 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CD6F53B1CC104D400DBF435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CD6F53D1CC104D400DBF435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CD6F5401CC104D400DBF435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CD6F5421CC104D400DBF435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD6F5651CC1061400DBF435 /* DragDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropImageView.h; sourceTree = "<group>"; };
+		6CD6F5661CC1061400DBF435 /* DragDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropImageView.m; sourceTree = "<group>"; };
+		6CD6F5691CC10BB900DBF435 /* ArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowView.h; sourceTree = "<group>"; };
+		6CD6F56A1CC10BB900DBF435 /* ArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowView.m; sourceTree = "<group>"; };
+		6CD6F5721CC1125600DBF435 /* ExifLocationReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExifLocationReader.h; sourceTree = "<group>"; };
+		6CD6F5731CC1125600DBF435 /* ExifLocationReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExifLocationReader.m; sourceTree = "<group>"; };
+		6CD6F57E1CC4CCFB00DBF435 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6CD6F5811CC52ADC00DBF435 /* GPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSViewController.h; sourceTree = "<group>"; };
+		6CD6F5821CC52ADC00DBF435 /* GPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSViewController.m; sourceTree = "<group>"; };
+		6CD6F5831CC52ADC00DBF435 /* GPSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CD6F4F81CC1045600DBF435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD6F57F1CC4CCFB00DBF435 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD6F52C1CC104D400DBF435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CD6F4F21CC1045600DBF435 = {
+			isa = PBXGroup;
+			children = (
+				6CD6F57E1CC4CCFB00DBF435 /* MapKit.framework */,
+				6CD6F5711CC1125600DBF435 /* EXIFLocationReader */,
+				6CD6F4FD1CC1045600DBF435 /* GPS Exif Demo */,
+				6CD6F5301CC104D400DBF435 /* GPS Exif Demo iOS */,
+				6CD6F4FC1CC1045600DBF435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CD6F4FC1CC1045600DBF435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F4FB1CC1045600DBF435 /* GPS Exif Demo OSX.app */,
+				6CD6F52F1CC104D400DBF435 /* GPS Exif Demo iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CD6F4FD1CC1045600DBF435 /* GPS Exif Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5621CC1061400DBF435 /* Classes */,
+				6CD6F4FE1CC1045600DBF435 /* AppDelegate.h */,
+				6CD6F4FF1CC1045600DBF435 /* AppDelegate.m */,
+				6CD6F5041CC1045600DBF435 /* Assets.xcassets */,
+				6CD6F5061CC1045600DBF435 /* MainMenu.xib */,
+				6CD6F5091CC1045600DBF435 /* Info.plist */,
+				6CD6F5011CC1045600DBF435 /* Supporting Files */,
+			);
+			path = "GPS Exif Demo";
+			sourceTree = "<group>";
+		};
+		6CD6F5011CC1045600DBF435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5021CC1045600DBF435 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CD6F5301CC104D400DBF435 /* GPS Exif Demo iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5341CC104D400DBF435 /* AppDelegate.h */,
+				6CD6F5351CC104D400DBF435 /* AppDelegate.m */,
+				6CD6F5371CC104D400DBF435 /* ViewController.h */,
+				6CD6F5381CC104D400DBF435 /* ViewController.m */,
+				6CD6F53A1CC104D400DBF435 /* Main.storyboard */,
+				6CD6F53D1CC104D400DBF435 /* Assets.xcassets */,
+				6CD6F53F1CC104D400DBF435 /* LaunchScreen.storyboard */,
+				6CD6F5421CC104D400DBF435 /* Info.plist */,
+				6CD6F5311CC104D400DBF435 /* Supporting Files */,
+			);
+			path = "GPS Exif Demo iOS";
+			sourceTree = "<group>";
+		};
+		6CD6F5311CC104D400DBF435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5321CC104D400DBF435 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CD6F5621CC1061400DBF435 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5771CC4CB3A00DBF435 /* Views */,
+				6CD6F5631CC1061400DBF435 /* Common */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6CD6F5631CC1061400DBF435 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5641CC1061400DBF435 /* DragDropImageView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6CD6F5641CC1061400DBF435 /* DragDropImageView */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5681CC10BAA00DBF435 /* ArrowView */,
+				6CD6F5651CC1061400DBF435 /* DragDropImageView.h */,
+				6CD6F5661CC1061400DBF435 /* DragDropImageView.m */,
+			);
+			path = DragDropImageView;
+			sourceTree = "<group>";
+		};
+		6CD6F5681CC10BAA00DBF435 /* ArrowView */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5691CC10BB900DBF435 /* ArrowView.h */,
+				6CD6F56A1CC10BB900DBF435 /* ArrowView.m */,
+			);
+			path = ArrowView;
+			sourceTree = "<group>";
+		};
+		6CD6F5711CC1125600DBF435 /* EXIFLocationReader */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5721CC1125600DBF435 /* ExifLocationReader.h */,
+				6CD6F5731CC1125600DBF435 /* ExifLocationReader.m */,
+			);
+			name = EXIFLocationReader;
+			path = ../EXIFLocationReader;
+			sourceTree = "<group>";
+		};
+		6CD6F5771CC4CB3A00DBF435 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5801CC52AD100DBF435 /* GPSView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CD6F5801CC52AD100DBF435 /* GPSView */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6F5811CC52ADC00DBF435 /* GPSViewController.h */,
+				6CD6F5821CC52ADC00DBF435 /* GPSViewController.m */,
+				6CD6F5831CC52ADC00DBF435 /* GPSViewController.xib */,
+			);
+			path = GPSView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CD6F4FA1CC1045600DBF435 /* GPS Exif Demo OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD6F5221CC1045600DBF435 /* Build configuration list for PBXNativeTarget "GPS Exif Demo OSX" */;
+			buildPhases = (
+				6CD6F4F71CC1045600DBF435 /* Sources */,
+				6CD6F4F81CC1045600DBF435 /* Frameworks */,
+				6CD6F4F91CC1045600DBF435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPS Exif Demo OSX";
+			productName = "GPS Exif Demo";
+			productReference = 6CD6F4FB1CC1045600DBF435 /* GPS Exif Demo OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CD6F52E1CC104D400DBF435 /* GPS Exif Demo iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD6F5591CC104D400DBF435 /* Build configuration list for PBXNativeTarget "GPS Exif Demo iOS" */;
+			buildPhases = (
+				6CD6F52B1CC104D400DBF435 /* Sources */,
+				6CD6F52C1CC104D400DBF435 /* Frameworks */,
+				6CD6F52D1CC104D400DBF435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPS Exif Demo iOS";
+			productName = "GPS Exif Demo iOS";
+			productReference = 6CD6F52F1CC104D400DBF435 /* GPS Exif Demo iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CD6F4F31CC1045600DBF435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Baris Atamer";
+				TargetAttributes = {
+					6CD6F4FA1CC1045600DBF435 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6CD6F52E1CC104D400DBF435 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 6CD6F4F61CC1045600DBF435 /* Build configuration list for PBXProject "GPS Exif Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CD6F4F21CC1045600DBF435;
+			productRefGroup = 6CD6F4FC1CC1045600DBF435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CD6F4FA1CC1045600DBF435 /* GPS Exif Demo OSX */,
+				6CD6F52E1CC104D400DBF435 /* GPS Exif Demo iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CD6F4F91CC1045600DBF435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD6F5051CC1045600DBF435 /* Assets.xcassets in Resources */,
+				6CD6F5081CC1045600DBF435 /* MainMenu.xib in Resources */,
+				6CD6F5851CC52ADC00DBF435 /* GPSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD6F52D1CC104D400DBF435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD6F5411CC104D400DBF435 /* LaunchScreen.storyboard in Resources */,
+				6CD6F53E1CC104D400DBF435 /* Assets.xcassets in Resources */,
+				6CD6F53C1CC104D400DBF435 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CD6F4F71CC1045600DBF435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD6F5741CC1125600DBF435 /* ExifLocationReader.m in Sources */,
+				6CD6F56B1CC10BB900DBF435 /* ArrowView.m in Sources */,
+				6CD6F5031CC1045600DBF435 /* main.m in Sources */,
+				6CD6F5841CC52ADC00DBF435 /* GPSViewController.m in Sources */,
+				6CD6F5671CC1061400DBF435 /* DragDropImageView.m in Sources */,
+				6CD6F5001CC1045600DBF435 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD6F52B1CC104D400DBF435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD6F5391CC104D400DBF435 /* ViewController.m in Sources */,
+				6CD6F5361CC104D400DBF435 /* AppDelegate.m in Sources */,
+				6CD6F5331CC104D400DBF435 /* main.m in Sources */,
+				6CD6F5751CC1125600DBF435 /* ExifLocationReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CD6F5061CC1045600DBF435 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD6F5071CC1045600DBF435 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6CD6F53A1CC104D400DBF435 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD6F53B1CC104D400DBF435 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CD6F53F1CC104D400DBF435 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD6F5401CC104D400DBF435 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CD6F5201CC1045600DBF435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6CD6F5211CC1045600DBF435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CD6F5231CC1045600DBF435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "GPS Exif Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ba.GPS-Exif-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CD6F5241CC1045600DBF435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "GPS Exif Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ba.GPS-Exif-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CD6F55A1CC104D400DBF435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "GPS Exif Demo iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ba.GPS-Exif-Demo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CD6F55B1CC104D400DBF435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "GPS Exif Demo iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ba.GPS-Exif-Demo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CD6F4F61CC1045600DBF435 /* Build configuration list for PBXProject "GPS Exif Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD6F5201CC1045600DBF435 /* Debug */,
+				6CD6F5211CC1045600DBF435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD6F5221CC1045600DBF435 /* Build configuration list for PBXNativeTarget "GPS Exif Demo OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD6F5231CC1045600DBF435 /* Debug */,
+				6CD6F5241CC1045600DBF435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD6F5591CC104D400DBF435 /* Build configuration list for PBXNativeTarget "GPS Exif Demo iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD6F55A1CC104D400DBF435 /* Debug */,
+				6CD6F55B1CC104D400DBF435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CD6F4F31CC1045600DBF435 /* Project object */;
+}
